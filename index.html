@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CID POC</title>
+  </head>
+  <body>
+    <h1>CID POC</h1>
+    <div id="app">
+      <h2>Creating the CID</h2>
+      <ul>
+        <li>
+          Original JSON data: <code>{ hello: 'world' }</code>
+        </li>
+        <li>
+          JSON data as bytes: <code id="data-bytes">'{ hello: "world" }'</code>
+        </li>
+        <li>
+          CID version: <code>1</code>
+        </li>
+        <li>
+          CID codec: <code>json</code><br/>
+          <small><a href="https://github.com/multiformats/multicodec/blob/master/table.csv">All codecs</a></a></small>
+        </li>
+        <li>
+          CID multihash: <code>sha2-256</code><br/>
+          <code id="data-hash"></code>
+        </li>
+      </ul>
+
+      <h3>Generated CID:</h3>
+      <div id="json-cid"></div>
+      <h2>Dissecting the generated CID</h2>
+      <ul>
+        <li>
+          <h3>Human readable CID</h3>
+          <code id="hr-cid"></code>
+        </li>
+        <li>
+          <h3>Multibase</h3>
+          <dl id="multibase">
+            <dt>Prefix:</dt>
+            <dd></dd>
+            <dt>Name:</dt>
+            <dd></dd>
+          </dl>
+        </li>
+        <li>
+          <h3>Multicodec</h3>
+          <dl id="multicodec">
+            <dt>Code:</dt>
+            <dd></dd>
+            <dt>Name:</dt>
+            <dd></dd>
+          </dl>
+        </li>
+        <li>
+          <h3>Multihash</h3>
+          <dl id="multihash">
+            <dt>Code</dt>
+            <dd></dd>
+            <dt>Name</dt>
+            <dd></dd>
+          </dl>
+        </li>
+      </ul>
+
+      <div>
+        <a href='' id="inspector-link" target="_blank">Verify the dissected CID on the CID inspector</a>
+      </div>
+    </div>
+    <script src="./dist/bundle.js" type="module" defer></script>
+  </body>
+</html>
