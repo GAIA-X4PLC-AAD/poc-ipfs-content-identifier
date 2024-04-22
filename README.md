@@ -37,4 +37,4 @@ When making changes to `./src/index.ts` make sure to stop the server, restart an
 - [Anatomy of a CID](https://proto.school/anatomy-of-a-cid)
 - [CID Inspector](https://cid.ipfs.io/#bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi)
 - [Multiformats](https://multiformats.io/)
-- 
+- [Codecs](https://github.com/multiformats/multicodec/blob/master/table.csv)
