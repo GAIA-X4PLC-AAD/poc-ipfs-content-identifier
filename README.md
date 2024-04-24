@@ -1,4 +1,4 @@
-# POC-Content-Identifier-CID
+# POC: IPFS Content Identifier (CIDs)
 
 > *Note: This POC shows how a CID is specified, constructed, how you can validate and deconstruct it again and lists resources. This helps to understand the concept and gives implementation hints. If you want to create CIDs for arbitrary files you can simply create a Pinata account or use IPFS Desktop to upload files.*
 
