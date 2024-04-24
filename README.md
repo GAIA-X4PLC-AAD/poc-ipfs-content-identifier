@@ -1,5 +1,7 @@
 # POC-Content-Identifier-CID
 
+> *Note: This POC shows how a CID is specified, constructed, how you can validate and deconstruct it again and lists resources. This helps to understand the concept and gives implementation hints. If you want to create CIDs for arbitrary files you can simply create a Pinata account or use IPFS Desktop to upload files.*
+
 # Summary
 
 ## What is a CID
@@ -38,3 +40,5 @@ When making changes to `./src/index.ts` make sure to stop the server, restart an
 - [CID Inspector](https://cid.ipfs.io/#bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi)
 - [Multiformats](https://multiformats.io/)
 - [Codecs](https://github.com/multiformats/multicodec/blob/master/table.csv)
+- [Pinata](https://www.pinata.cloud/)
+- [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/)
